@@ -53,7 +53,7 @@
       // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
       // Otherwise, leave pathSegmentsToKeep as 0.
       var pathSegmentsToKeep = 0;
-      localStorage.setItem('path', window.location.path);
+      localStorage.setItem('path', window.location.path.slice(1));
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
