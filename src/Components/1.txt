@@ -1,3 +1,0 @@
-(index == -1) ?  
-<SearchTable AdjustNum={AdjustNum} soryByAtrr={soryByAtrr} data={search}></SearchTable>:
-<DataTable AdjustNum={AdjustNum} soryByAtrr={soryByAtrr} data={data[index]}></DataTable>
