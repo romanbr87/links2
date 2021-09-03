@@ -7,8 +7,8 @@ export default function DataTable(props) {
 const handleSubmit = (e) => {
     e.preventDefault();
     var arr = String(e.target).split("https://")
-   
-    window.location.href = "https://" + arr[1];
+    alert (arr)
+    //window.location.href = "https://" + arr[1];
 }
     
 return (
@@ -23,7 +23,7 @@ return (
                 <tr key={j} className={ (j === 0) ? "borderTop": ''}> 
                     <td className="numberCell">{ props.AdjustNum(j)}</td>
                     <td className="nameCell">
-                    { (e2.link !== '') ? <Link to={e2.link} onClick={e => handleSubmit(e) } >{e2.site_name}</Link> : e2.site_name }
+                    { (e2.link !== '') ? <a href={e2.link} onClick={e => handleSubmit(e) } >{e2.site_name}</a> : e2.site_name }
                     </td>
                     <td>
                     { (e2.link2 !== '') ? <Link to={e2.link2} onClick={e => handleSubmit(e) } >קישור 2</Link> : 'קישור 2' }
