@@ -4,6 +4,13 @@ import { Link } from 'react-router-dom';
 
 export default function DataTable(props) {
 
+const handleSubmit = (e) => {
+    e.preventDefault();
+    var arr = String(e.target).split("https://")
+   
+    window.location.href = "https://" + arr[1];
+}
+    
 return (
     <tbody id="dataTable">
     {
@@ -16,19 +23,20 @@ return (
                 <tr key={j} className={ (j === 0) ? "borderTop": ''}> 
                     <td className="numberCell">{ props.AdjustNum(j)}</td>
                     <td className="nameCell">
-                    { (e2.link !== '') ? <Link to={e2.link} >{e2.site_name}</Link> : e2.site_name }
+                    { (e2.link !== '') ? <Link to={e2.link} onClick={e => handleSubmit(e) } >{e2.site_name}</Link> : e2.site_name }
                     </td>
                     <td>
-                    { (e2.link2 !== '') ? <Link to={e2.link2}>קישור 2</Link> : 'קישור 2' }
+                    { (e2.link2 !== '') ? <Link to={e2.link2} onClick={e => handleSubmit(e) } >קישור 2</Link> : 'קישור 2' }
                     </td>
                     <td>
-                    { (e2.facebook_link1 !== '') ? <Link to={e2.facebook_link1}>דף פייסבוק</Link> : 'דף פייסבוק' }
+                    { (e2.facebook_link1 !== '') ? <Link to={e2.facebook_link1} onClick={e => handleSubmit(e) } >דף פייסבוק</Link> : 'דף פייסבוק' }
                     </td>
                     <td>
-                    { (e2.facebook_link2 !== '' && e2.facebook_link2 !== undefined) ? <Link to={e2.facebook_link2}>דף פייסבוק 2</Link> : 'דף פייסבוק 2' }
+                    { (e2.facebook_link2 !== '' && e2.facebook_link2 !== undefined) ? <Link to={e2.facebook_link2}
+                     onClick={e => handleSubmit(e) }>דף פייסבוק 2</Link> : 'דף פייסבוק 2' }
                     </td>
                     <td>
-                    { (e2.linkedIn_link !== '') ? <Link to={e2.linkedIn_link}>לינקדאין</Link> : 'לינקדאין' }
+                    { (e2.linkedIn_link !== '') ? <Link to={e2.linkedIn_link} onClick={e => handleSubmit(e) }>לינקדאין</Link> : 'לינקדאין' }
                     </td>
 
                 </tr>

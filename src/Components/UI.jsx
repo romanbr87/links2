@@ -39,7 +39,12 @@ export default function UI(props) {
     }, 0)
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (e) => {
+    if (e.key !== undefined) {
+      alert(e.key.toLowerCase());
+      if ((e.key.toLowerCase() !== "enter")) return;
+    }
+
     var txt = document.getElementById ("searchText").value;
     if (txt.trim() === "") return;
 
@@ -96,7 +101,8 @@ export default function UI(props) {
           <button className="btn btn-default text-left" type="button" onClick={e => handleSubmit(e)}>
           <i className="glyphicon glyphicon-search"></i></button>
         </span>
-        <input type="text" className="form-control" placeholder="חיפוש" name="searchText" id="searchText" />
+        <input type="text" className="form-control" onKeyUp={ e => handleSubmit(e) }
+        placeholder="חיפוש" name="searchText" id="searchText" />
       </div>
 
       { (index !== -2) ? '':
