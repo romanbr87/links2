@@ -9,7 +9,12 @@
 #title { font-size: 2.5em; }
 .panel-heading, .panel, .panel-body { padding: 0; margin: 0; }
 
-#panelForm {border: none;}
+#panelForm { 	
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
 #panelForm, #panelForm > .panel-body > * { width: 100%; }
 #panelForm > .panel-body { margin: 5% 0 0 0; padding: 0; }
 /*----------------------------------------------------------------------------*/

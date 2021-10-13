@@ -2,7 +2,7 @@ import './App.css'
 import "./style.css"
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { createBrowserHistory } from "history";
-import Home from './Components/Home.jsx'
+import Home from './Components/Home1.jsx'
 import About from './Components/About.jsx'
 
 export default function App(props) {
