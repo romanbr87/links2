@@ -1,0 +1,48 @@
+* { direction: rtl; margin: 0; padding: 0; }
+.pull-center {
+  margin: auto; 
+}
+
+#title { font-size: 2.5em; }
+#panelForm > div > * { width: 100%; }
+#panelForm { width: 37%; }
+#testTable { width: 100% }
+
+th, td { text-align: center; width: auto; }
+
+.nameCell { width: 25%; text-align: right;}
+.numberCell { width: 5%; text-align: right; }
+
+tbody > tr:first-child > td { border-top: solid silver; }
+
+.borderTop { border-top: 2px solid; }
+.borderCat { border: 2px solid lightgray; }
+.cat { font-weight: bold; }
+
+.list-group-item, #sel {
+  width: 35%;
+  margin: 0;
+  padding: 0 1% 0 2%;
+  height: 2em;
+}
+
+.badge { vertical-align: middle; margin: 1% 0 1% 0; } 
+h1,h2,h3,h4 { letter-spacing: .08em; }
+
+p.text { font-size: 15px; width: 70%; margin-bottom: 1%;}
+.checkbox label {
+    margin-right: 15px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  p.text { font-size: 1.2em; width: 90%; }
+  #title { font-size: 2.1em; }
+  #panelForm > div > * { width: 100%; }
+  #panelForm { width: 80%; }
+  .panel-heading > h3 { font-size: 1.6em; } 
+  .list-group-item {
+    width: 80%;
+  }
+
+}
