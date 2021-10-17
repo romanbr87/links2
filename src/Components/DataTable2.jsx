@@ -14,7 +14,7 @@ export default function DataTable(props) {
 }*/
     
 return (
-    <div className="list-group"  id="list2">
+    <div className="list-group" id="list2">
     {
         props.data.links.map ((e1, i) => {
             return <div key={i} className="text-right"> 

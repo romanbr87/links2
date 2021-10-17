@@ -7,12 +7,13 @@
 }
 
 #title { font-size: 2.5em; }
-.panel-heading, .panel, .panel-body { padding: 0; margin: 0; }
+.panel-heading, .panel, .panel-body, #list2 { padding: 0; margin: 0; }
 
 #panelForm { 	
   -webkit-box-shadow: none;
 	-moz-box-shadow: none;
-	box-shadow: none;
+	-o-box-shadow: none;
+  box-shadow: none;
 }
 
 #panelForm, #panelForm > .panel-body > * { width: 100%; }
@@ -30,6 +31,7 @@ tbody > tr:first-child > td { border-top: solid silver; }
 .borderCat { border: 2px solid lightgray; }
 .cat { font-weight: bold; }
 /*----------------------------------------------------------------------------*/
+
 #list1 > .list-group-item, #sel {
   width: 100%;
   margin: 0;
@@ -57,23 +59,19 @@ input[type="radio"], input[type="checkbox"] {
   margin-right: -1.1em;
 }
 
-.list-group-item { border-radius: 0; }
+.list-group-item:hover { background-color: lightgray;}
+.list-group-item { border-radius: 0; width: 100%; }
 .list-group-item a { 
     margin: auto 2% auto 1%;  
     padding-left: 3%; 
     border-left: 1px solid black; 
 }
-.list-group-item a:last-child { border: none;}
+.list-group-item a:last-child { border: none; }
 
 @media only screen and (max-width: 768px) {
   #title { font-size: 1.6em; }
 
   #testTable, #testTable > tbody, #testTable > tbody > tr { width: 100%; }
-
-  #list2 {
-    padding: 0;
-    margin: 0;
-  }
   
   #list2 > .list-group-item {
     width: 100%;
