@@ -26,7 +26,7 @@ return (
                   return  <span key={"j"+i+""+j} className="list-group-item text-right links" 
                   onClick={e => e.preventDefault()}>
 
-                    { props.AdjustNum(j) + ". "}<a onClick={e => window.location.href = e.target} href={e2.link}>{e2.site_name}</a>  
+                    { props.AdjustNum(j) + ". "}<a onClick={e =>  { e.preventDefault(); window.location.href = e.target; } } href={e2.link}>{e2.site_name}</a>  
 
                     { (e2.link2.trim() !== '')? 
                         <a onClick={e => window.location.href = e.target} className="text-right" href={e2.link2} >קישור 2</a> 
