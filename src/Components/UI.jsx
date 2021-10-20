@@ -78,7 +78,7 @@ export default function UI(props) {
   }
 
   if (data == null || data === "" || data === undefined) return <p>Null</p>
-  return ([
+  return (
     <div className="container text-center pull-center">
       <div className="panel" id="panelForm">
         
@@ -168,14 +168,7 @@ export default function UI(props) {
           }
         </div>
       </div>         
-    </div>,
-    
-    <footer className="well well-sm panel-footer text-right" 
-    style={{ bottom: "0", top: "0", margin: "0", borderRadius: '0', border: 'none'}}>
-        
-        { data.reduce((acc,element) => acc + getLinksLength(element.links), 0) } רשומות
-    </footer> 
-
-  ])
+    </div>
+  )
 }
   
