@@ -78,7 +78,7 @@ export default function UI(props) {
   }
 
   if (data == null || data === "" || data === undefined) return <p>Null</p>
-  return (
+  return ([
     <div className="container text-center pull-center">
       <div className="panel" id="panelForm">
         
@@ -153,8 +153,8 @@ export default function UI(props) {
         </div>
 
 
-      <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2"
-      style={{ marginTop: "2%", marginBottom: "2%"}}>
+      <div id="dataTable" className="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2"
+      style={{ marginTop: "2%"}}>
         <div className="panel panel-info" style={{border: "1px solid #bce8f1"}}>
           <div className="panel-heading">
           <h3 style = {{ fontWeight: "lighter", margin: '0', padding: '.5em 0 .5em 0'}}>
@@ -168,7 +168,14 @@ export default function UI(props) {
           }
         </div>
       </div>         
-    </div>
-  )
+    </div>,
+    
+    <footer className="well well-sm panel-footer text-right navbar-fixed-bottom" 
+    style={{ margin: "10em 0 0 0", borderRadius: '0', border: 'none', marginTop: "10em"}}>
+        
+        { data.reduce((acc,element) => acc + getLinksLength(element.links), 0) } רשומות
+    </footer> 
+
+  ])
 }
   
