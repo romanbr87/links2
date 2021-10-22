@@ -42,13 +42,13 @@ tbody > tr:first-child > td { border-top: solid silver; }
 .badge { vertical-align: middle; margin: 1% 0 1% 0; } 
 h1,h2,h3,h4 { letter-spacing: .08em; border: none;}
 
-.checkbox label {
+.checkbox-inline {
   margin-right: 13.5px;
   margin-left: -3px;
   padding-top: 0;
 }
 
-.radio label {
+.radio-inline {
   margin-right: 0.95em;
   margin-left: 1em;
   padding: 0;
