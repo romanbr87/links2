@@ -78,12 +78,13 @@ export default function UI(props) {
   }
 
   if (data == null || data === "" || data === undefined) return <p>Null</p>
+  //<h3 id= "title" style = {{ fontWeight: "lighter", textDecoration: "underline" }}>קטלוג אתרים של מקומות תעסוקה וחברות כוח אדם</h3>
   return ([
     <div className="container text-center pull-center">
       <div className="panel" id="panelForm">
         
         <div className="panel-heading">
-        <h3 id= "title" style = {{ fontWeight: "lighter", textDecoration: "underline" }}>קטלוג אתרים של מקומות תעסוקה וחברות כוח אדם</h3>
+        <h3 id= "title" style = {{ fontWeight: "lighter", textDecoration: "underline" }}>קישורית</h3>
         <br style = {{padding: "0", margin: "0 0 14% 0"}} />
         <h4 className="text-right">{ data.reduce((acc,element) => acc + getLinksLength(element.links), 0) } רשומות  </h4>
         </div>

@@ -43,13 +43,13 @@ tbody > tr:first-child > td { border-top: solid silver; }
 h1,h2,h3,h4 { letter-spacing: .08em; border: none;}
 
 .checkbox label {
-  margin-right: 14px;
+  margin-right: 13.5px;
   margin-left: -3px;
   padding-top: 0;
 }
 
 .radio label {
-  margin-right: 1.04em;
+  margin-right: 0.95em;
   margin-left: 1em;
   padding: 0;
 }
