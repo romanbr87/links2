@@ -1,4 +1,12 @@
-* { direction: rtl; margin: 0; padding: 0; }
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* { 
+  direction: rtl; 
+  margin: 0; 
+  padding: 0; 
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
 
 .pull-center {
   margin-right: auto;
