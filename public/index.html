@@ -12,15 +12,15 @@
     <title>קישורית</title>
 
     <meta name="google-site-verification" content="INZ1lPlJ4uJihxsPJiYcnm62efEwDySXzWSfo5iZfIQ" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
-    <meta name="bingbot" content="index, follow" />
+    <meta name="robots" content="index, follow, noodp, noydir" />
+    <meta name="googlebot" content="index, follow, noodp, noydir" />
+    <meta name="bingbot" content="index, follow, noodp, noydir" />
     <meta name="generator" content="slidify" />
     <meta name="google" content="notranslate" />
 
 
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link data-default-icon="%PUBLIC_URL%/favicon.ico" data-badged-icon="%PUBLIC_URL%/favicon.ico" rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <meta name="image" content="%PUBLIC_URL%/newjob.jpg" />  
@@ -34,10 +34,12 @@
     <meta property="og:description" content="אינדקס אתרים של מקומות תעסוקה, חברות כוח אדם, לוחות דרושים ועמותות בתחום התעסוקה"/>
     <meta property="og:url" content="https://links2.vercel.app/"/>
     <meta property="og:type" content="website"/>		
-    <meta property=”fb:pages” content="110682567074630" />
     <meta property="og:image" content="%PUBLIC_URL%/newjob.jpg"/>		
+    <meta property=”fb:pages” content="110682567074630" />
+    <meta property=”fb:app_id” content="1616981855234875" />
 
     <meta name="twitter:title" content="קישורית" />
+    <meta name="twitter:site" content="קישורית" />
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:description" content="אינדקס אתרים של מקומות תעסוקה, חברות כוח אדם, לוחות דרושים ועמותות בתחום התעסוקה" />
     <meta name="twitter:image" content="%PUBLIC_URL%/newjob.jpg" />
@@ -61,6 +63,26 @@
 
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v12.0&appId=1616981855234875&autoLogAppEvents=1" nonce="yL8OtYYp"></script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1616981855234875',
+          xfbml      : true,
+          version    : 'v12.0'
+        });
+        FB.AppEvents.logPageView();
+      };
+    
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/he_IL/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

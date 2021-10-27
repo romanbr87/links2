@@ -117,5 +117,5 @@ input[type="radio"], input[type="checkbox"] {
   .list-group-item a:last-child { border: none;}
   .list-group-item, .list-group-item .active { border-radius: 0;}
   
-  #dataTable { margin-bottom: 14%; }
+  #dataTable { margin-bottom: 18%; }
 }
