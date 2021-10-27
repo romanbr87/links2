@@ -175,7 +175,8 @@ export default function UI(props) {
     style={{ margin: "10em 0 0 0", borderRadius: '0', border: 'none', marginTop: "10em"}}>
         
         <span>{ data.reduce((acc,element) => acc + getLinksLength(element.links), 0) } רשומות</span>
-        <div className="fb-like" data-href="https://links2.vercel.app/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+        <div className="fb-like" data-href="https://links2.vercel.app/" data-width="" 
+        data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
     </footer> 
 
   ])
