@@ -24,7 +24,7 @@ export default function Home(props) {
   
   useEffect(() => {
     getDataFromJson ();
-  })
+  }, []);
 
   if (data == null || data === "" || data === undefined) return <p>Null</p>
   return (
