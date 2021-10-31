@@ -1130,21 +1130,6 @@
                             "location": ""
                         },
                         {
-                            "site_name": "מתאם משאבי אנוש",
-                            "link": "https://www.mitam-hr.org",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/mitamhr",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "office@mitam-hr.org",
-                            "email2": "",
-                            "tel1": "03-3730091",
-                            "tel2": "03-3730092",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
                             "site_name": "רמות",
                             "link": "http://rammot.co.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d",
                             "link2": "",
@@ -2560,6 +2545,21 @@
                 {
                     "cat": "חברות כוח אדם בתחומים ספציפיים",
                     "links": [                       
+                        {
+                            "site_name": "מתאם משאבי אנוש",
+                            "link": "https://www.mitam-hr.org",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/mitamhr",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "office@mitam-hr.org",
+                            "email2": "",
+                            "tel1": "03-3730091",
+                            "tel2": "03-3730092",
+                            "whatsapp": "",
+                            "location": ""
+                        },
                         {
                             "site_name": "מקס ג'וב - Max Job",
                             "link": "https://www.maxjob.co.il",

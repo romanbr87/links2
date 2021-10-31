@@ -174,14 +174,10 @@ export default function UI(props) {
     <footer className="well well-sm panel-footer text-right navbar-fixed-bottom" 
     style={{ margin: "10em 0 0 0", padding:"auto", borderRadius: '0', border: 'none', marginTop: "10em"}}>
         
-        <div className="fb-like" data-href="https://links2.vercel.app/" data-width="" 
-        data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
-
-        <span style={{ padding: 'auto', margin: 'auto'}}>
+       <span style={{ padding: 'auto', margin: 'auto'}}>
           { (2==1) ? "" : data.reduce((acc,element) => acc + getLinksLength(element.links), 0) } רשומות
         </span>
-
-    </footer> 
+   </footer> 
 
   ])
 }
