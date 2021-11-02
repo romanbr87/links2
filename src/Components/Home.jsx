@@ -9,7 +9,7 @@ export default function Home(props) {
   const [data, setData] = useState()
 
   const getDataFromJson = () => {
-    var fileName = "https://romanbr87.github.io/links/db2.json";
+    var fileName = "https://raw.githubusercontent.com/romanbr87/links2/main/src/JSON/db2.json";
     fetch(fileName)
     .then(response => response.json())
     .then(data => {
