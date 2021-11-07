@@ -106,23 +106,24 @@ export default function UI(props) {
             <input type="checkbox" id="inlineCheckbox1" value="option1" 
             onChange={e=> setCheck1(e.target.checked)} />גודל אות</label>
         </div>      
-        <div className="radio text-right" style={{margin: "2% auto 3% auto"}}>
+        <div className="radio text-right" style={{margin: "2% auto 3% auto", direction: "ltr"}}>
             
             <label className="radio-inline">
-            <input type="radio" name="inlineRadio" value=""
-            onClick={e=> setLocation("")} />כל הארץ</label>
+            <input type="radio" name="inlineRadio" value="south" 
+            onClick={e=> setLocation("south")} />דרום</label>
+    
+            <label className="radio-inline">
+            <input type="radio" name="inlineRadio" value="center" 
+            onClick={e=> setLocation("center")} />מרכז</label>
 
             <label className="radio-inline">
             <input type="radio" name="inlineRadio" value="north" 
             onClick={e=> setLocation("north")} />צפון</label>
 
             <label className="radio-inline">
-            <input type="radio" name="inlineRadio" value="center" 
-            onClick={e=> setLocation("center")} />מרכז</label>
-
-            <label className="radio-inline">
-            <input type="radio" name="inlineRadio" value="south" 
-            onClick={e=> setLocation("south")} />דרום</label>
+            <input type="radio" name="inlineRadio" value=""
+            onClick={e=> setLocation("")} />הכל</label>
+    
         </div>
 
         { (index !== -2) ? '':
