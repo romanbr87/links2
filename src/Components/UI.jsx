@@ -85,7 +85,7 @@ export default function UI(props) {
         
         <div className="panel-heading">
         <h3 id= "title" style = {{ fontWeight: "lighter", textDecoration: "underline" }}>קישורית</h3>
-        <br style = {{padding: "0", margin: "0 0 14% 0"}} />
+        <br style = {{padding: "0", margin: "0"}} />
         <h4 className="text-right">{ data.reduce((acc,element) => acc + getLinksLength(element.links), 0) } רשומות  </h4>
         </div>
         

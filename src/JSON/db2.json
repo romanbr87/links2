@@ -4191,6 +4191,21 @@
                             "location": "north"
                         },
                         {
+                            "site_name": "קבוצת ארד",
+                            "link": "https://arad.co.il/he/branch/arad-inc",
+                            "link2": "https://arad.co.il/he/branch/arad-tech-inc",
+                            "facebook_link1": "https://www.facebook.com/TheAradGroup",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "04-989-7911",
+                            "tel2": "",
+                            "whatsapp": "⁦",
+                            "location": "north"
+                        },
+                        {
                             "site_name": "אלקטרה",
                             "link": "https://www.ecp.co.il/%D7%A7%D7%A8%D7%99%D7%99%D7%A8%D7%94/%D7%9C%D7%A2%D7%91%D7%95%D7%93-%D7%91%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%94",
                             "link2": "https://www.ecp.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/search-jobs",
@@ -4347,21 +4362,6 @@
                     "cat": "חברות, שונות",
                     "links": [                       
                         {
-                            "site_name": "קבוצת ארד",
-                            "link": "https://arad.co.il/he/branch/arad-inc",
-                            "link2": "https://arad.co.il/he/branch/arad-tech-inc",
-                            "facebook_link1": "https://www.facebook.com/TheAradGroup",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "04-989-7911",
-                            "tel2": "",
-                            "whatsapp": "⁦",
-                            "location": "north"
-                        },
-                        {
                             "site_name": "כמיפל משאבי אנוש",
                             "link": "http://www.chemipal.co.il/he/%d7%a7%d7%a8%d7%99%d7%a8%d7%94-3",
                             "link2": "",
@@ -4375,6 +4375,21 @@
                             "tel2": "",
                             "whatsapp": "⁦",
                             "location": "center"
+                        },
+                        {
+                            "site_name": "הוליס - Holis",
+                            "link": "https://www.holis-jobs.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
                         }
                     ]
                 }               
@@ -4391,7 +4406,7 @@
                             "site_name": "בזק",
                             "link": "https://www.bezeq.co.il/career",
                             "link2": "",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/%D7%91%D7%96%D7%A7-%D7%92%D7%99%D7%95%D7%A1-%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D-1992327954313832/",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
